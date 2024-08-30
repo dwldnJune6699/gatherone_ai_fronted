@@ -386,11 +386,8 @@
 //   top: 20px;
 // }
 
-<<<<<<< Updated upstream
 //ai写作和思维导图页面公用样式
-=======
 // 每个页面左侧的页面样式
->>>>>>> Stashed changes
 .writ_log {
   width: 330px;
   height: 100%;
@@ -435,24 +432,51 @@
   color: rgba(0, 0, 0, 0.85);
 }
 
-<<<<<<< Updated upstream
 .writ_img {
   width: 14px;
   height: 14px;
   margin-right: 6px;
 }
 
-=======
->>>>>>> Stashed changes
 .writ_conatiner {
   overflow-y: auto;
   display: flex;
   justify-content: center;
 }
-<<<<<<< Updated upstream
 
 .writself {
   text-align: right;
 }
-=======
->>>>>>> Stashed changes
+
+// a-button 的按钮颜色
+.ant-radio-button-wrapper-checked:not(
+    .ant-radio-button-wrapper-disabled
+  ):first-child {
+  border-color: #6b70fb;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  color: #6b70fb;
+  border-color: #6b70fb;
+}
+.ant-radio-button-wrapper-checked:not(
+    .ant-radio-button-wrapper-disabled
+  )::before {
+  color: #6b70fb;
+  background-color: #6b70fb;
+}
+.ant-radio-button-wrapper-checked:not(
+    .ant-radio-button-wrapper-disabled
+  ):hover::before {
+  color: #6b70fb;
+  background-color: #6b70fb;
+}
+.ant-radio-button-wrapper-checked:not(
+    .ant-radio-button-wrapper-disabled
+  ):hover {
+  color: #6b70fb;
+  border-color: #6b70fb;
+}
+.ant-radio-button-wrapper:hover {
+  color: #6b70fb;
+}
